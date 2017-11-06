@@ -24,9 +24,6 @@ def plot_by_columns(datafile, fig_name):
     rcParams['xtick.major.size'] = 3.5
     rcParams['xtick.minor.width'] = 0.6
     rcParams['xtick.color'] = 'k'
-    rcParams['pdf.fonttype'] = 42
-    rcParams['ps.fonttype'] = 3
-    rcParams['ps.usedistiller'] = False
 
     font1 = dict(family='STKaiti', color='red', weight='normal', size=12)
 
